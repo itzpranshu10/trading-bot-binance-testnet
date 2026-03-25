@@ -86,6 +86,14 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.001 --price 9000
 python cli.py --symbol BTCUSDT --side SELL --type STOP_LIMIT --qty 0.002 --price 90000 --stop-price 90500
 ```
 
+## Automated Testing
+
+Run the local automated test suite with:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
 ## Example Output
 
 ```text
