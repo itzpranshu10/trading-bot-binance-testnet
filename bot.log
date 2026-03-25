@@ -1,0 +1,11 @@
+
+2026-03-25 16:39:24,191 - trading_bot - INFO - Skipping default spot ping during client initialization.
+2026-03-25 16:39:24,191 - trading_bot - INFO - Pinging Binance Futures Testnet at https://testnet.binancefuture.com/fapi
+2026-03-25 16:39:24,985 - trading_bot - INFO - Connected to Testnet at https://testnet.binancefuture.com
+2026-03-25 16:39:24,985 - trading_bot - INFO - API Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': '90000.0', 'timeInForce': 'GTC'}
+2026-03-25 16:39:25,050 - trading_bot - INFO - Skipping default spot ping during client initialization.
+2026-03-25 16:39:25,050 - trading_bot - INFO - Pinging Binance Futures Testnet at https://testnet.binancefuture.com/fapi
+2026-03-25 16:39:25,398 - trading_bot - INFO - API Response: {'orderId': 12991748423, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '40dV3Cuw4q69uJAlInhsxN', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774436965345}
+2026-03-25 16:39:25,600 - trading_bot - INFO - Connected to Testnet at https://testnet.binancefuture.com
+2026-03-25 16:39:25,600 - trading_bot - INFO - API Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-03-25 16:39:25,754 - trading_bot - INFO - API Response: {'orderId': 12991748429, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'bV4e8z1z8yvc1QN4yC7F1C', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774436965704}
